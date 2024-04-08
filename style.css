@@ -140,8 +140,14 @@
     border-radius: 20px;
   }
   footer{
+    height: 150px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px 200px;
+  }
+  .cont {
+    padding: 10px;
+    color: #808080;
   }
