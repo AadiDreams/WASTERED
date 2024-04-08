@@ -27,6 +27,32 @@ nav img {
     flex: 1;
     text-align: right;
 }
+.about-us{
+    color:white;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+.about-col{
+    color:white;
+    flex-basis: 48%;
+    font-size: 25px;
+    color:lightgreen;
+    font-style:bold;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
 .nav-links ul li {
     list-style-type: none;;
     display: inline-block;
