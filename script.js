@@ -20,10 +20,10 @@ const { Pool } = require('pg'); // For database connection
 
 // Database connection details (replace with yours)
 const pool = new Pool({
-  user: 'your_username',
-  host: 'your_host',
-  database: 'your_database',
-  password: 'your_password',
+  user: 'admin1',
+  host: 'vercel',
+  database: 'wastered',
+  password: 'wastered1',
   port: 5432
 });
 
@@ -74,3 +74,17 @@ validateLogin(username, password)
   .catch(err => {
     console.error('Error during login validation:', err);
   });
+
+  function value(){
+    const user=document.getElementById("username").value;
+    const pass=document.getElementById("password").value;
+    const users=["admin","user"];
+    const passwords=["admin01","user01"];
+    if(user==users[0] && pass==passwords[0]){
+        window.open("./loged.html");
+    }
+    else{
+        window.alert("Invalid Credential");
+    }
+}
+
